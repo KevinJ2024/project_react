@@ -13,25 +13,4 @@ div{
     flex-direction: row;
 }
 
-#input-search{
-    border: none;
-    border-radius: 50px 0px 0px 50px;
-    outline: none;
-}
 
-#btn-search{
-    border-radius: 0px 50px 50px 0px;
-    width: 60px;
-    border: none;
-    background-color: rgb(179, 89, 89);
-}
-
-#btn-search:hover{
-    background-color: rgb(200, 70, 70);
-}
-
-#select-option{
-    border-radius: 20px;
-    background-color: rgb(179, 89, 89);
-    color: white;
-}

@@ -1,15 +1,10 @@
-import { Header } from "./layouts/Header/Header.jsx"
+import { Home } from './pages/Home/Home.jsx'
 
 export const App = () => {
   return (
     <>
-      <Header />
-      <main>
-
-      </main>
-      <footer>
-
-      </footer>
+      <Home />
+      
     </>
   ) 
 }
