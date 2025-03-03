@@ -3,6 +3,6 @@
     height: 6rem;
     background-color: rgba(3, 2, 47, 0.656);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }

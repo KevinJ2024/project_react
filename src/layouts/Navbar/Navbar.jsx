@@ -1,12 +1,9 @@
 import './Navbar.css'
-import { ItemNavbar } from '../../components/ItemNavbar/ItemNavbar';
 
-export const Navbar = () => {
+export const Navbar = ({children}) => {
   return (
     <nav>
-        <ItemNavbar content="Home" i=""/>
-        <ItemNavbar content="Clase" i="1"/>
-        <ItemNavbar content="Clase" i="2"/>
+        { children }
     </nav>
   )
 }
